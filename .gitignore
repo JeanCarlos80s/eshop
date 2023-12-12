@@ -1,0 +1,8 @@
+# Ignorar a pasta node_modules
+/node_modules
+
+# Ignorar o arquivo .env
+.env
+
+# Remover todos os arquivos .jpeg, .jpg e .png dentro da pasta public/uploads
+git rm public/uploads/*.{jpeg,jpg,png}
